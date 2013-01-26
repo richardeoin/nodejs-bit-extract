@@ -4,11 +4,9 @@
 	"description": "A big-endian extractor for groups of bits.",
 	"main": "bitextract.js",
 	"author": "Richard Eoin <richardeoin@gmail.com>",
-	"dependencies": {
-	},
 	"keywords": [
 		"bit",
-		"bits",
+		"bits"
 	],
 	"repository": {
 		"type": "git",
