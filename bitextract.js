@@ -10,7 +10,7 @@ exports = module.exports = function (number, bits) {
 	}
 
 	return { /* Return a read_bits function */
-		read_bits: function (n) { /* Read n bytes off the big end of number */
+		extract_bits: function (n) { /* Read n bytes off the big end of number */
 			if (bits - n < 0) { /* Not enough bits */
 				throw {
 					name: 'RangeError',
