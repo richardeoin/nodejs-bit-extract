@@ -11,10 +11,10 @@ npm install bit-extract
 ## Usage ##
 
 ```javascript
-var bitextract = require('bit-extract');
+var bit_extract = require('bit-extract');
 
 /* Set up a bit reader. Specify the value and how many bits it has. */
-var bx = bitextract(305419896, 32); // 305419896 is 0x12345678 hexadecimal
+var bx = bit_extract(305419896, 32); // 305419896 is 0x12345678 hexadecimal
 
 /* Extract the bits */
 console.log(bx.extract_bits(4));

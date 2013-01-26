@@ -1,9 +1,9 @@
 /* Richard Meadows 2013 */
 
-var bitextract = require('../bitextract');
+var bit_extract = require('../bitextract');
 
 /* Set up a bit reader */
-var bx = bitextract(parseInt('0x12345678', 16), 32);
+var bx = bit_extract(parseInt('0x12345678', 16), 32);
 
 /* To extract the digits again */
 console.log(bx.extract_bits(4));
